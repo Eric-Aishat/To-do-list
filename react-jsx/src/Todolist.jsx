@@ -2,7 +2,7 @@ import React,{useState} from 'react'
 
 const Todolist = () => {
 
-const [tasks, setTasks] = useState([' Eat Breakfast', 'take a walk','clean the house']);
+const [tasks, setTasks] = useState([' ']);
 const [newTask, setnewTasks] = useState ('');
 function handleInputChange(event){
   setnewTasks(event.target.value);
